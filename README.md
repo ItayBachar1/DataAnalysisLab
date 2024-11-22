@@ -10,3 +10,10 @@
 > Adir Toledano adir1905@campus.technion.ac.il
 > 
 ![header](https://capsule-render.vercel.app/api?type=soft&color=293B5F&height=45&section=header&text=Background&fontSize=28&fontAlign=10&fontColor=EEF5FF&reversal=true&theme=holi)
+
+
+Complete implementation details of the demo application, including FastAPI and Streamlit integration, are available in the src file. Key files include:
+
+app.py: Backend logic for query processing and recommendation generation.
+streamlit_app.py: Frontend interface for user interactions.
+utils.py: Utility functions for resource initialization and data handling.
