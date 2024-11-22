@@ -9,11 +9,37 @@
 > 
 > Adir Toledano adir1905@campus.technion.ac.il
 > 
-![header](https://capsule-render.vercel.app/api?type=soft&color=293B5F&height=45&section=header&text=Background&fontSize=28&fontAlign=10&fontColor=EEF5FF&reversal=true&theme=holi)
+![header](https://capsule-render.vercel.app/api?type=soft&color=293B5F&height=45&section=header&text=Overview&fontSize=33&fontAlign=10&fontColor=EEF5FF&reversal=true&theme=holi)
+
+This project demonstrates a Retrieval-Augmented Generation (RAG) system designed to provide personalized property recommendations for Airbnb listings. By combining vector database technologies (FAISS and Pinecone) with language models (distilgpt2 and all-MiniLM-L6-v2), the system retrieves relevant listings based on user preferences and generates coherent responses tailored to specific queries.
+
+The project includes:
+- A RAG system with two indexing methods (FAISS and Pinecone).
+- A synthetic QA dataset generated using Cohere’s LLM for evaluation.
+- A demo application with an interactive user interface for real-time recommendations.
 
 
-Complete implementation details of the demo application, including FastAPI and Streamlit integration, are available in the src file. Key files include:
+![header](https://capsule-render.vercel.app/api?type=soft&color=293B5F&height=45&section=header&text=Setup%20Instructions&fontSize=28&fontAlign=15&fontColor=EEF5FF&reversal=true&theme=holi)
 
-app.py: Backend logic for query processing and recommendation generation.
-streamlit_app.py: Frontend interface for user interactions.
-utils.py: Utility functions for resource initialization and data handling.
+#### 1. Clone the repository:
+```bash
+git clone https://github.com/ItayBachar1/DataAnalysisLab.git
+```
+#### 2. Navigate to the project directory:
+```bash
+cd DataAnalysisLab
+```
+#### 3. Install the necessary dependencies:
+```bash
+pip install -r requirements.txt
+```
+![header](https://capsule-render.vercel.app/api?type=soft&color=293B5F&height=45&section=header&text=Run%20Instructions&fontSize=28&fontAlign=14&fontColor=EEF5FF&reversal=true&theme=holi)
+
+Run the FastAPI backend server:
+```bash
+uvicorn fastapi_app:app --reload    
+```
+Run the Streamlit frontend app:
+```bash
+streamlit run streamlit_app.py
+```
