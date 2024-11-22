@@ -7,14 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1-vCfbbe-pGc1h2PIHwHlLTtKE25tolWT
 """
 
-!pip install faiss-cpu
-!pip install pinecone-client
-!pip install datasets
-!pip install evaluate
-!pip install rouge_score
-!pip install bert_score
-!pip install sentence-transformers
-
 import os
 import pandas as pd
 from sentence_transformers import SentenceTransformer
