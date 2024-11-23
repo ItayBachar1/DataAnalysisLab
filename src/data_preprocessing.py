@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1cyVFlycjz22YCosXNrE7yNAiOPp_KUF_
 """
 
-!pip install datasets
-
 from datasets import load_dataset
 
 # Load the Airbnb embeddings dataset
