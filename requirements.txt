@@ -11,3 +11,5 @@ pinecone-client
 evaluate
 rouge_score
 bert_score
+streamlit
+requests
