@@ -1,7 +1,6 @@
 faiss-cpu
 pandas
 sentence-transformers
-faiss
 numpy
 transformers
 scikit-learn
