@@ -117,7 +117,7 @@ def generate_response_with_qa(query):
     return response[0]['generated_text']
 
 # Load synthetic QA pairs for evaluation
-qa_df = pd.read_csv("../data/synthetic_qa_pairs.csv")
+qa_df = pd.read_csv("./data/synthetic_qa_pairs.csv")
 questions = qa_df['synthetic_question'].tolist()
 reference_answers = qa_df['synthetic_answer'].tolist()
 
