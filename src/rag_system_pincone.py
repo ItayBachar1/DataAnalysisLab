@@ -34,7 +34,8 @@ if index_name not in [index_info["name"] for index_info in pc.list_indexes()]:
 index = pc.Index(index_name)
 
 # df = pd.read_csv("../data/cleaned_airbnb_data.csv")
-df = pd.read_csv("data/cleaned_airbnb_data.csv")
+# df = pd.read_csv("data/cleaned_airbnb_data.csv")
+df = pd.read_csv("./data/cleaned_airbnb_data.csv")
 df['description'] = df['description'].fillna('').astype(str)
 descriptions = df['description'].tolist()
 
