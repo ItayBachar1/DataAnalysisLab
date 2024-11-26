@@ -54,5 +54,5 @@ uvicorn src.fastapi_app:app --reload
 ```
 Run the Streamlit frontend app:
 ```bash
-streamlit run streamlit_app.py
+streamlit run src.streamlit_app.py
 ```
