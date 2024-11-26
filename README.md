@@ -46,13 +46,17 @@ cd DataAnalysisLab
 ```bash
 pip install -r requirements.txt
 ```
+#### 4. Navigate to the src directory
+```bash
+cd src
+```
 ![header](https://capsule-render.vercel.app/api?type=soft&color=293B5F&height=45&section=header&text=Run%20Instructions&fontSize=28&fontAlign=14&fontColor=EEF5FF&reversal=true&theme=holi)
 
 Run the FastAPI backend server:
 ```bash
-uvicorn src.fastapi_app:app --reload    
+uvicorn fastapi_app:app --reload    
 ```
 Run the Streamlit frontend app:
 ```bash
-streamlit run src.streamlit_app.py
+streamlit run streamlit_app.py
 ```
