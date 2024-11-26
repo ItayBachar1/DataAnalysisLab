@@ -16,11 +16,12 @@ from sklearn.metrics import precision_score, recall_score
 
 
 # Load synthetic QA pairs dataset for question-answer reference
-qa_df = pd.read_csv("../data/synthetic_qa_pairs.csv")
+qa_df = pd.read_csv("./data/synthetic_qa_pairs.csv")
 print("Columns in synthetic QA file:", qa_df.columns)
 
 # Load Airbnb dataset with property descriptions and embeddings
-df = pd.read_csv("../data/cleaned_airbnb_data.csv")
+# df = pd.read_csv("../data/cleaned_airbnb_data.csv")
+df = pd.read_csv("./data/cleaned_airbnb_data.csv")
 print("Columns in the dataset:", df.columns)
 df['description'] = df['description'].fillna('').astype(str)
 
@@ -139,7 +140,7 @@ import numpy as np
 from evaluate import load
 
 # Load the synthetic QA pairs dataset
-qa_df = pd.read_csv("../data/synthetic_qa_pairs.csv")
+qa_df = pd.read_csv("./data/synthetic_qa_pairs.csv")
 questions = qa_df['synthetic_question'].tolist()
 reference_answers = qa_df['synthetic_answer'].tolist()
 
@@ -202,7 +203,7 @@ import pandas as pd
 from sklearn.metrics import precision_score, recall_score
 import numpy as np
 
-qa_df = pd.read_csv("../data/synthetic_qa_pairs.csv")
+qa_df = pd.read_csv("./data/synthetic_qa_pairs.csv")
 questions = qa_df['synthetic_question'].tolist()
 reference_answers = qa_df['synthetic_answer'].tolist()
 
