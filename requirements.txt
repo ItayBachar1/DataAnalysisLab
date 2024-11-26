@@ -13,3 +13,4 @@ bert_score
 streamlit
 requests
 uvicorn
+fastapi
