@@ -24,9 +24,9 @@ The project includes:
 #### Prerequisites
 ```bash
 Before running the project, ensure you have the following installed:
-1. **Python 3.10 or higher**: [Download here](https://www.python.org/downloads/)
-2. **Git**: [Download here](https://git-scm.com/)
-3. **Pip**: Comes pre-installed with Python. Check by running `pip --version`.
+1. Python 3.10 or higher: [Download here](https://www.python.org/downloads/)
+2. Git: [Download here](https://git-scm.com/)
+3. Pip: Comes pre-installed with Python. Check by running `pip --version`.
 
 For `faiss` (used for vector search), ensure:
 - On Windows, run: `pip install faiss-cpu`
