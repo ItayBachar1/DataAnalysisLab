@@ -21,6 +21,19 @@ The project includes:
 
 ![header](https://capsule-render.vercel.app/api?type=soft&color=293B5F&height=45&section=header&text=Setup%20Instructions&fontSize=28&fontAlign=15&fontColor=EEF5FF&reversal=true&theme=holi)
 
+#### Prerequisites
+```bash
+Before running the project, ensure you have the following installed:
+1. **Python 3.10 or higher**: [Download here](https://www.python.org/downloads/)
+2. **Git**: [Download here](https://git-scm.com/)
+3. **Pip**: Comes pre-installed with Python. Check by running `pip --version`.
+
+For `faiss` (used for vector search), ensure:
+- On Windows, run: `pip install faiss-cpu`
+- On Linux, run: `pip install faiss-gpu` (if you have CUDA installed).
+```
+
+
 #### 1. Clone the repository:
 ```bash
 git clone https://github.com/ItayBachar1/DataAnalysisLab.git
