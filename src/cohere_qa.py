@@ -9,7 +9,7 @@ if not cohere_api_key:
 co = cohere.Client(cohere_api_key)
 
 # Load the cleaned airbnb dataset
-data = pd.read_csv("../data/cleaned_airbnb_data.csv")
+data = pd.read_csv("./data/cleaned_airbnb_data.csv")
 #dataset = load_dataset("MongoDB/airbnb_embeddings")
 #data = dataset["train"].to_pandas()
 
