@@ -12,3 +12,4 @@ rouge_score
 bert_score
 streamlit
 requests
+uvicorn
